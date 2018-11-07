@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<!-- fonts style link , from google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald|Roboto" rel="stylesheet">
+
+
+  <head>
+
+    <title>BransonMo.Deals</title>
+
+    <!-- css styling -->
+      <style>
+/* secondary background box, for outlining the form*/
+      #info-box-back{
+        border-radius: 20px;
+        width: 50%;
+        height:560px;
+        margin:50px auto;
+        background: white;
+      }
+/* background id specifications*/
+      #ledge-back{
+        border-radius: 20px;
+        width: 88%;
+        height:1500px;
+        margin: 50px auto;
+        background: url("https://img-aws.ehowcdn.com/560x560p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/7ac218249494481ebad54ae42289569b");
+
+      }
+/* box for email entry, and button*/
+        #email-form{
+          position: absolute;
+          top: 375px;
+          right:800px;
+        }
+
+        body{
+          background-color: gray;
+        }
+
+        .red-text{
+          color: red;
+        }
+
+        h1 {
+          font-family: Lobster, sans-serif;
+          font-size: 100px;
+          margin: -10px;
+          text-align: center;
+        }
+
+        h2{
+          font-family: Oswald, sans-serif;
+          text-align:center;
+        }
+
+      </style>
+
+
+
+  </head>
+
+  <body>
+<div id="ledge-back">
+    <div id="info-box-back">
+    <h1 class="red-text">BransonMo.Deals </h1>
+
+    <h2> Get Our Best Deals today! </h2>
+
+      <div>
+        <form id="email-form" action="/submit-email">
+
+          <input type="text" placeholder="Email" required>
+
+          <button type="submit">Send Me Deals!</button>
+
+        </form>
+      </div>
+    </div>
+</div>
+  </body>
+</html>
